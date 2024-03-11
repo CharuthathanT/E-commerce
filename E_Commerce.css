@@ -1,0 +1,25 @@
+div h1
+{
+    text-align: center;
+    color: blue;  
+}
+div>div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form
+{
+    width: 500px;
+}
+form > div
+{
+    display: flex;
+}
+#btn
+{
+    width: 200px;
+    border: 1px solid black;
+}
